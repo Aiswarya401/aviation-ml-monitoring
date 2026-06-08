@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aviation ML Monitoring Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>✈️ Aviation ML Monitoring Dashboard</h1>
+
+    <div class="stat-card">
+        <h2>Total Predictions</h2>
+        <p>{{ total_predictions }}</p>
+    </div>
+
+    <form action="/predict" method="post">
+
+        <textarea
+            name="text"
+            placeholder="Enter aviation-related text..."
+            required
+        ></textarea>
+
+        <button type="submit">
+            Predict
+        </button>
+
+    </form>
+
+    {% if prediction %}
+
+    <div class="result">
+        <h2>Prediction Result</h2>
+
+        <p><strong>Text:</strong> {{ text }}</p>
+        <p><strong>Category:</strong> {{ prediction }}</p>
+    </div>
+
+    {% endif %}
+
+    <div class="history">
+
+        <h2>Recent Predictions</h2>
+
+        {% for item in history %}
+
+        <div class="history-card">
+
+            <p><strong>Input:</strong> {{ item[0] }}</p>
+
+            <p><strong>Prediction:</strong> {{ item[1] }}</p>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+</body>
+</html>

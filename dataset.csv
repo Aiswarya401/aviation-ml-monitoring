@@ -1,0 +1,35 @@
+text,label
+"Engine overheating detected during flight",Engine
+"Fuel leakage found near wing section",Fuel
+"Heavy rain caused visibility issues",Weather
+"Navigation system signal unstable",Avionics
+"Pilot reported engine vibration",Engine
+"Thunderstorm delayed aircraft departure",Weather
+"Autopilot system malfunction detected",Avionics
+"Fuel pressure dropped suddenly",Fuel
+"Aircraft radar system not responding",Avionics
+"Extreme wind affected landing",Weather
+"Engine temperature exceeded limit",Engine
+"Fuel valve requires maintenance",Fuel
+"Aircraft engine overheating during flight",Engine
+"Engine cooling system failure detected",Engine
+"Engine vibration increased rapidly",Engine
+"Engine oil temperature very high",Engine
+"Jet engine showing abnormal pressure",Engine
+"Storm clouds reduced pilot visibility",Weather
+"Severe turbulence detected during landing",Weather
+"Runway visibility affected by fog",Weather
+"Strong winds delayed aircraft departure",Weather
+"Rainstorm disrupted airport operations",Weather
+
+"Fuel sensor warning activated",Fuel
+"Fuel tank pressure abnormal",Fuel
+"Aircraft fuel line damaged",Fuel
+"Fuel refill system malfunction",Fuel
+"Fuel monitoring system error",Fuel
+
+"Navigation display stopped working",Avionics
+"Radar tracking system failure",Avionics
+"Autopilot unexpectedly disconnected",Avionics
+"Communication signal lost mid flight",Avionics
+"Aircraft navigation computer malfunctioned",Avionics
